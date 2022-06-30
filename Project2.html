@@ -33,12 +33,16 @@
 			<H5>Book a Table!</H5>
 			<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
 				<BR><BR>
+				<div class = "form">
 				First and Last Name: <input type="text" size=40 name="Name">
+				</div>	
 				<BR><BR>
 				Date(ex. 05/25/20): <input type="text" size=20 name="Date">
+				<BR><BR>
 				Time(ex. 09:30PM): <input type="text" size=20 name="Time">
 				<BR><BR>
 				<input type="submit" name="submit" value="submit">
+				<BR><BR>
 				<input type="reset" name="reset" value="reset">
 				<BR><BR>
 			</Form>
@@ -60,7 +64,7 @@
 				<H5>Share your Farm to Fork Experience!</H5>
 				<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
 					<BR><BR>
-					First Name: <input type="text" size=20 name="Name">
+					First Name: <input id="name" type="text" size=20 name="Name">
 					Date of Visit: <input type="text" size=20 name="Visit">
 					<BR><BR>
 					Comments: <input type="text" size=65 name="Review">
