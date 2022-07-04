@@ -32,6 +32,8 @@ Form {
 	color: white; 
 	background-color: green}
 
+@media screen and(max-width:1040px) {
+	
 @media screen and (max-width:800px){
 	H2{
 		font-size: 20pt;
@@ -42,6 +44,10 @@ Form {
 	#iabout{
 		max-width: 25em;
 	}
+	#hours{
+			display: inline-block;
+		}
+}
 }
 @media screen and (max-width: 650px){
 	H2{
@@ -60,6 +66,7 @@ Form {
 		font-size: 15px;
 		position: absolute;
 	}
+	
 }
 @media screen and (max-width: 500px){
 	#iabout{
@@ -73,6 +80,10 @@ Form {
 	}
 	H1{
 		font-size: 40pt;
+	}
+	
+	#contact{
+		max-width: 20em;
 	}
 }
 @media screen and (max-width:450px) {
@@ -90,5 +101,8 @@ Form {
 	}
 	#mtitle{
 		display: inline-block;
+	}
+	table{
+		width: 300;
 	}
 }
